@@ -11,7 +11,7 @@ namespace AzureRedis
         async static Task Main(string[] args)
         {
 
-            string connectionString = "<>";
+            string connectionString = "";
 
             using ( var cache = ConnectionMultiplexer.Connect(connectionString)) {
 
